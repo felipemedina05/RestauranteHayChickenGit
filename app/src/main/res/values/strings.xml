@@ -1,0 +1,30 @@
+<resources>
+    <string name="txtSesionIconos">Inicia Sesión con</string>
+    <string name="btnIniciarSesion">Iniciar Sesión</string>
+    <string name="btnRegistrarse">Registrarse</string>
+    <string name="txtOlvidarContraseña">Olvidó su contraseña</string>
+    <string name="btnSoyEmpleado">Soy Empleado</string>
+    <string name="btnSoyUsuario">Soy Usuario</string>
+    <string name="txtCorreo">Correo:</string>
+    <string name="txtContraseña">Contraseña:</string>
+    <string name="helpertxtrequerido">Requerido</string>
+    <string name="txtNombre">Ingrese Nombre:</string>
+    <string name="txtApellido">Ingrese Apellido:</string>
+    <string name="txtNum">Ingrese Número Celular:</string>
+    <string name="txtVContraseña">Verifique Contraseña</string>
+    <string name="txtPoliticaPrivacidad">Aceptar política de privacidad</string>
+    <string name="txtTerminosCondiciones">Aceptar términos y condiciones</string>
+    <string name="txtCodigoEmpleado">Código Empleado</string>
+    <string name="txtCocinero">Cocinero</string>
+    <string name="txtMesero">Mesero</string>
+    <string name="txtCajero">Cajero</string>
+    <string name="txtSeleccion">Seleccione Rol</string>
+    <string name="ItemTrad">Traducción</string>
+    <string name="ItemCerrar">Cerrar Sesión</string>
+    <string-array name="SpinnerRol">
+        <item>@string/txtSeleccion</item>
+        <item>@string/txtMesero</item>
+        <item>@string/txtCajero</item>
+        <item>@string/txtCocinero</item>
+    </string-array>
+</resources>

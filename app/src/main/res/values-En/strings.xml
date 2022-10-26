@@ -1,0 +1,24 @@
+<resources>
+    <string name="txtSesionIconos">Log In With</string>
+    <string name="btnIniciarSesion">Log In</string>
+    <string name="btnRegistrarse">Register</string>
+    <string name="txtOlvidarContraseña">Forgot Your Password</string>
+    <string name="btnSoyEmpleado">I´m an Employee</string>
+    <string name="btnSoyUsuario">I´m a Usser</string>
+    <string name="txtCorreo">Email:</string>
+    <string name="txtContraseña">Password:</string>
+    <string name="helpertxtrequerido">Required</string>
+    <string name="txtNombre">Insert Name:</string>
+    <string name="txtApellido">Insert LastName:</string>
+    <string name="txtNum">Insert Cellphone</string>
+    <string name="txtVContraseña">Verify Password</string>
+    <string name="txtPoliticaPrivacidad">Accept privacy policy</string>
+    <string name="txtTerminosCondiciones">Accept terms and conditions</string>
+    <string name="txtCodigoEmpleado">Employee Code</string>
+    <string name="txtCocinero">Coock</string>
+    <string name="txtMesero">Waiter</string>
+    <string name="txtCajero">Cashier</string>
+    <string name="txtSeleccion">Select Rol</string>
+    <string name="ItemTrad">Translate</string>
+    <string name="ItemCerrar">Sign Off</string>
+</resources>

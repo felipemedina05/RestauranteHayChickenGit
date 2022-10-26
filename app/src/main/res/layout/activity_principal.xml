@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Principal">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/MenuPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:gravity="center">
+
+        <LinearLayout
+
+            android:layout_width="335dp"
+            android:layout_height="320dp">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/restaurantelogo">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="403dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/txtSesionIconos"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+
+        </TextView>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/facebook">
+
+            </ImageView>
+
+            <ImageView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/google">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <Button
+
+            android:id="@+id/IniciarSesionP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:onClick="IniciarSesion"
+            android:text="@string/btnIniciarSesion"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+
+            android:id="@+id/RegistroPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Registro"
+            android:text="@string/btnRegistrarse"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/txtOlvidarContraseña"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#0000FF">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
